@@ -9,7 +9,6 @@ body {
 
 h1 {
   font-size: 3.5rem;
-  /* size: 5rem; */
   line-height: 1.5;
   padding-bottom: 3rem;
 }
@@ -54,6 +53,7 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(15deg);
+  margin: auto 8rem;
 }
 
 /* features section */
