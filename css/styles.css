@@ -13,6 +13,10 @@ h1 {
   padding-bottom: 3rem;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -87,4 +91,27 @@ h1 {
 
 .icon:hover {
   color: red;
+}
+
+#testimonials {
+  background-color: #ff4c68;
+  color: white;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  width: 9rem;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.press-logo {
+  width: 8rem;
+  margin: 2% 3%;
 }
