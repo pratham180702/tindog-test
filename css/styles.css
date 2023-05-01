@@ -98,12 +98,16 @@ h2 {
   color: white;
   font-family: "Montserrat";
   text-align: center;
-  padding: 7% 15%;
 }
 
 .testimonials-img {
   border-radius: 100%;
   width: 9rem;
+}
+
+.carousel-item {
+  height: 500px;
+  padding: 7% 15%;
 }
 
 #press {
