@@ -120,3 +120,21 @@ h2 {
   width: 8rem;
   margin: 2% 3%;
 }
+
+/* pricing groups */
+.cards-row {
+  padding: 7% 15%;
+}
+
+.cards-items {
+  margin: 5% 5%;
+  border-left: 0px;
+}
+
+.body-content {
+  text-align: center;
+}
+
+.card-header-content {
+  text-align: center;
+}
