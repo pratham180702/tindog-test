@@ -5,7 +5,8 @@ body {
 /* title section */
 
 #title {
-  background-color: #ff4c68;
+  /* background-color: #ff4c68; */
+  background-color: #e76161;
   color: #fff;
 }
 
@@ -25,8 +26,14 @@ h2 {
 
 /* navigation css */
 
-.navbar {
+/* .navbar {
   padding-bottom: 4.5rem;
+} */
+
+.navigation-bar {
+  background-color: #8bacaa;
+  padding: 0 2.5%;
+  margin: 0;
 }
 
 .navbar-brand {
@@ -48,6 +55,10 @@ h2 {
   font-family: "Ubuntu";
   color: whitesmoke;
   font-size: 18px;
+}
+
+.title-row-section {
+  margin-top: 10%;
 }
 
 .download-button {
@@ -87,7 +98,8 @@ h2 {
 }
 
 .icon {
-  color: #ff4c68;
+  /* color: #ff4c68; */
+  color: #e76161;
   padding-bottom: 50px;
 }
 
@@ -98,7 +110,8 @@ h2 {
 /* .testimonials section */
 
 #testimonials {
-  background-color: #ff4c68;
+  /* background-color: #ff4c68; */
+  background-color: #e76161;
   color: white;
   font-family: "Montserrat";
   text-align: center;
@@ -116,7 +129,8 @@ h2 {
 }
 
 #press {
-  background-color: #ff4c68;
+  /* background-color: #ff4c68; */
+  background-color: #e76161;
   text-align: center;
 }
 
@@ -143,7 +157,8 @@ h2 {
 /* cta section */
 
 #cta {
-  background-color: #ff4c68;
+  /* background-color: #ff4c68; */
+  background-color: #e76161;
   padding: 7% 15%;
   text-align: center;
   font-family: "Montserrat";
