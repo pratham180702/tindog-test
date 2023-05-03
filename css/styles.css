@@ -76,6 +76,7 @@ h2 {
 
   .buttons {
     margin-left: 22%;
+    margin-bottom: 10px;
   }
 }
 
@@ -152,4 +153,35 @@ h2 {
 #pricing {
   padding: 3% 3%;
   text-align: center;
+}
+
+/* cta section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.cta-h3 {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.cta-download-button {
+  margin: 5% 1% 0;
+}
+
+/* footer section  */
+
+#footer {
+  padding: 2%;
+  text-align: center;
+  font-family: "ubuntu";
+  font-size: 1.1 rem;
+  color: #8f8f8f;
+}
+
+.footer-icon {
+  padding: 5px 5px 10px;
 }
