@@ -2,6 +2,8 @@ body {
   font-family: "Montserrat";
 }
 
+/* title section */
+
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -26,6 +28,7 @@ h2 {
 .navbar {
   padding-bottom: 4.5rem;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -47,13 +50,9 @@ h2 {
   font-size: 18px;
 }
 
-/* download button css */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
-
-/* title image  */
 
 .title-image {
   width: 18%;
@@ -62,23 +61,7 @@ h2 {
   position: absolute;
 }
 
-@media (max-width: 995px) {
-  .title-image {
-    transform: rotate(0deg);
-    position: static;
-    width: 200px;
-    margin-left: 35%;
-  }
-
-  h1 {
-    text-align: center;
-  }
-
-  .buttons {
-    margin-left: 22%;
-    margin-bottom: 10px;
-  }
-}
+/* features section  */
 
 #features {
   /* font-family: "Montserrat-bold"; */
@@ -111,6 +94,8 @@ h2 {
 .icon:hover {
   color: red;
 }
+
+/* .testimonials section */
 
 #testimonials {
   background-color: #ff4c68;
@@ -156,6 +141,7 @@ h2 {
 }
 
 /* cta section */
+
 #cta {
   background-color: #ff4c68;
   padding: 7% 15%;
@@ -184,4 +170,24 @@ h2 {
 
 .footer-icon {
   padding: 5px 5px 10px;
+}
+
+/* responsiveness */
+
+@media (max-width: 995px) {
+  .title-image {
+    transform: rotate(0deg);
+    position: static;
+    width: 200px;
+    margin-left: 35%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .buttons {
+    margin-left: 22%;
+    margin-bottom: 10px;
+  }
 }
